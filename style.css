@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.nav {
+  background-color: rgb(52, 49, 49);
+  color: white;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-title {
+  margin-left: 20px;
+}
+.btn {
+  height: 35px;
+  width: 100px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  box-shadow: 5px 5px #000000;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+}
+
+
+.mainbox {
+height: 700px;
+width: 500px;
+flex: 2;
+gap: 20px;
+/* padding: 20px; */
+margin: 10px;
+/* display: inline-block;
+margin-top: 200px;
+margin-left: 200px; */
+}
+.col-1 {
+  height: 300px;
+  width: 100%;
+  border: 2px solid gray;
+  flex: 1;
+  margin-bottom: 30px;
+}
+.toolBar{
+  height: 100px;
+  width: 100%;
+  background-color: #14a2b8
+}
+
+#userPic {
+  height: 80px;
+  position: relative;
+  top: 55px;
+  left: 35px;
+  border:4px solid white;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 35px;
+  margin-left: 35px;
+  font-weight: lighter;
+  font-style:normal;
+}
+
+#name1 {
+  /* margin-top: 10px; */
+  /* margin-left: 65px; */
+  color: black;
+  /* text-align: center; */
+  font-weight: bold;
+}
+
+#map {
+  height: 15px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.city {
+  display: inline-block;
+  margin-left: 12px;
+  font-weight: lighter;
+  font-style:normal;
+  margin-bottom: 5px;
+
+}
+.description {
+  font-weight: lighter;
+  font-style:normal;
+  margin-left: 35px;
+}
+#gearicon{
+  height: 15px;
+  margin-left: 37px;
+  margin-top: 15px;
+}
+
+.editProfile {
+  display: inline-block;
+  align-items: center;
+  text-decoration: underline;
+  color: #2f4981;
+  margin-left: 4px;
+  font-weight: lighter;
+  font-style:normal;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.col-2{
+  height: 300px;
+  width: 100%;
+  border: 2px solid gray;
+  flex: 1;
+  
+}
+
+.sidebar {
+  height: 700px;
+  width: 250px;
+}
+.col-3 {
+  height: 190px;
+  width: 100%;
+  border: 2px solid gray;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.col-4{
+  height: 400px;
+  width: 100%;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.toolBar2{
+  height: 20%;
+  width: 100%;
+  background-color: rgb(52, 49, 49);
+  color: white;
+  text-indent: 20px;
+}
+
+#word{
+  display: inline-block;
+  color: white;
+  padding-top: 20px;
+} 
+#subhead {
+font-size: 30px;
+margin-top: 10px;
+text-indent: 20px;
+}
+#subhead1 {
+color: gray;
+margin-top: 10px;
+text-indent: 20px;
+}
+.subhead2 {
+font-size: 20px;
+margin-top: 10px;
+text-indent: 20px;
+font-weight: bold;
+}
+
+.toolBar3{
+  height: 27%;
+  width: 100%;
+  background-color: rgb(52, 49, 49);
+  /* display: block; */
+}
+.btn2 {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border:none;
+  margin-right: 10px;
+  margin-top: 10px;
+  /* padding-bottom: 5px; */
+}
+
+#userPic1 {
+  height: 30px;
+  border:4px solid white;
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin: 10px;
+}
+
+.toolBar4{
+  height: 60px;
+  width: 96%;
+  background-color: rgb(52, 49, 49);
+
+}
+
+.toolBar5{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+#viewmore {
+  text-indent: 10px;
+  padding-top: 10px;
+
+}
+
+#wordconnect{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#checkmark{
+  height: 30px;
+
+}
+#yourConnect{
+  color: white;
+  text-align:left;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.btn3 {
+  height: 25px;
+  width: 45px;
+  border-radius: 50%;
+  border:none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#userPic2 {
+  height: 30px;
+  border:4px solid white;
+  border-radius: 50%;
+  /* display: inline-block; */
+  margin: 10px;
+  
+}
+#toddiv {
+  height: 100px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+#todbox {
+  height: 90%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+
+#phildiv {
+  height: 90px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+#philbox {
+  height: 90%;
+  width: 95%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 10px; */
+}
